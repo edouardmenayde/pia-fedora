@@ -12,3 +12,4 @@ PIA for linux is not supposed to work for fedora but you can get around its inst
 - `cp -r ~/.pia-manager/data/ deploy_files/` this step is necessary otherwise the installer will fail  
 - `nano installer.sh` and modify the `sudo apt-get install -y ...` line by `sudo dnf install -y GConf2 net-tools libappindicator libXScrnSaver`
 - `./installer.sh`
+- kill the first shell you opened
